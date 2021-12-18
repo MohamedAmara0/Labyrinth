@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class MazeRenderer : MonoBehaviour
 {
+
     [SerializeField]
     [Range(1, 50)]
     private int width = 10;
@@ -77,7 +78,9 @@ public class MazeRenderer : MonoBehaviour
                     }
                 }
             }
+
         }
+
     }
 
     // Update is called once per frame
